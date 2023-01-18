@@ -1,0 +1,14 @@
+# sdaia_custom_apis-js:
+#   filter: rjsmin
+#   output: ckanext-sdaia_custom_apis/%(version)s-sdaia_custom_apis.js
+#   contents:
+#     - js/sdaia_custom_apis.js
+#   extra:
+#     preload:
+#       - base/main
+
+# sdaia_custom_apis-css:
+#   filter: cssrewrite
+#   output: ckanext-sdaia_custom_apis/%(version)s-sdaia_custom_apis.css
+#   contents:
+#     - css/sdaia_custom_apis.css

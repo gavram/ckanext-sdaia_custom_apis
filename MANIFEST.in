@@ -1,0 +1,5 @@
+include README.rst
+include LICENSE
+include requirements.txt
+recursive-include ckanext/sdaia_custom_apis *.html *.json *.js *.less *.css *.mo *.yml
+recursive-include ckanext/sdaia_custom_apis/migration *.ini *.py *.mako
